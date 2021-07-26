@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 $dark-brown: #444440;
 $light-brown: #757570;
@@ -5,6 +6,18 @@ $dark-blue: #A9B1B0;
 $light-blue: #B9C9C7;
 $dark-cream: #F3E8DA;
 $light-cream: #F9F4EC;
-$light-blue: #e5eafa;
+$light-blue: #DBE7E5;
 $gray: #CACAC3;
 $green: #E6ECDA;
+
+body {
+  margin: 0;
+  h1 {
+    font-family: "PT Serif", Georgia, serif;
+    font-weight: 400;
+  }
+  p {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-weight: 400;
+  }
+}

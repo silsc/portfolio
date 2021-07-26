@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +10,15 @@
 </head>
 <body>
   {{ content }}
+  <script>
+    const menuIcon = document.querySelector('.hamburger-menu');
+    const navbar = document.querySelector('.navbar');
+    menuIcon.addEventListener('click', () => {
+      navbar.classList.toggle('change');
+    })
+    // function navbarShape(line) {
+    //   line.classList.toggle("change");
+    // }
+  </script>
 </body>
-
 </html>
