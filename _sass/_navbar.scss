@@ -1,13 +1,14 @@
 .top-header {
   display: flex;
   justify-content: space-between;
-  padding: 3em 5em;
   .logo {
     text-decoration: none;
     color: $dark-blue;
     background: white;
     padding: 0 1.7em;
     position: fixed;
+    top: 5vw;
+    left: 6vw;
   }
 }
 
@@ -17,25 +18,26 @@
   width: 3em;
   height: 3em;
   position: fixed;
-  top: 5em;
-  right: 6em;
+  top: 5vw;
+  right: 6vw;
   .line1, .line2 {
   width: 35px;
-  height: 5px;
+  height: 0.3em;
   background-color: $light-brown;
-  margin: 8px 0;
+  margin: 15% 0;
   transition: 0.5s;
   }
 }
 
 .navbar {
-  width: 300px;
+  width: 25vw;
   height: 100%;
-  background-color: $light-blue;
+  background-color: $medium-blue;
   position: fixed;
   top: 0;
-  right: -300px;
+  right: -25vw;
   transition: right .8s;
+  z-index: 100;
 }
 
 .change {
@@ -53,7 +55,7 @@
 .nav-list {
   margin-top: 200px;
   .nav-item {
-    margin: 3em 5em;
+    margin: 3em 5em 3em 2em;
     list-style-type: none;
     text-align: center;
     .nav-link {
@@ -62,6 +64,24 @@
       font-size: 2em;
       text-align: center;
     }
+  }
+}
+
+.hidden {
+  overflow: hidden;
+}
+
+.show {
+  overflow: visible;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    width: 100vw;
+    right: -100vw;
+  }
+  .change {
+    right: 0;
   }
 }
 
