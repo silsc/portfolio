@@ -72,6 +72,34 @@ title: Main
 <div id="aboutme">
   <div class="aboutme-container">
     <div class="aboutme-card">
+      <h1>About me</h1>
+      <img src="/assets/images/avatar.png" class="avatar" style="width: 20%;"/>
+      <div class="aboutme-box">
+        <div class="aboutme-text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non est et massa blandit porta at nec urna. Donec maximus ornare congue. Vivamus commodo urna dui, sit amet sodales dui volutpat nec. Nunc a ultricies ante, in tincidunt orci. Proin vitae lorem et sapien laoreet fringilla bibendum non metus. Aenean et nibh non eros ornare porttitor nec a felis. Integer in nunc felis. Curabitur eleifend fermentum molestie. Vestibulum eget eros elementum, semper ligula vel, rutrum nisi. Fusce eget dui ut tortor luctus lobortis a ac odio. Maecenas dui nibh, cursus a consectetur a, dapibus id velit.
+          <br>
+          <br>Vivamus finibus purus vel dui auctor tincidunt. Proin massa lacus, consequat sagittis pretium posuere, lobortis in lectus. Nullam dignissim elementum sem eu pharetra. In nec augue nisl. Vestibulum arcu turpis, bibendum nec semper non, accumsan id ipsum. Suspendisse potenti. Cras lacinia enim luctus, laoreet elit vel, feugiat
+          </p>
+          <div class="sign">Silvia Salat.</div>
+        </div>
+        <div class="knowledge">
+          <h2 class="learnt">What do I know?</h2>
+          <div>
+            <div class="line1-logos" style="display: flex;">
+              <img src="/assets/images/ruby.png"/>
+              <img src="/assets/images/bootstrap.svg"/>
+              <img src="/assets/images/html.png"/>
+            </div>
+            <div class="line2-logos" >
+              <img src="/assets/images/sass.png"/>
+              <img src="/assets/images/js.png"/>
+              <img src="/assets/images/figma.png"/>
+              <img src="/assets/images/marvel.png"/>
+            </div>
+          </div>
+          <h2>Who do I want to become?</h2>
+        </div>
+      </div>
     </div>
   </div>
 </div>

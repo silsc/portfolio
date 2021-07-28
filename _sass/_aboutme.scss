@@ -4,9 +4,81 @@
   .aboutme-container {
     padding-top: 10%;
     .aboutme-card {
+      position: relative;
       border-radius: 500px 500px 0px 0px;
       background: $light-blue;
       min-height: 300vh;
+      .aboutme-box {
+        display: flex;
+        // justify-content: space-between;
+        top: 20%;
+        // position: absolute;
+        padding: 20% 12%;
+      }
+    }
+    h1 {
+      position: absolute;
+      top: 3%;
+      left: 40%;
+      font-size: 5vw;
+      z-index: 2;
+      text-shadow: -5px 0px 0px #FFFFFF;
+    }
+    .avatar {
+      position: absolute;
+      top: -5%;
+      left: 30%;
+      transform: rotate(-14.86deg);
+    }
+    .aboutme-text {
+      width: 48%;
+      margin-right: 5%;
+      p {
+        font-size: 1.3vw;
+        font-family: "PT Sans";
+        color: $light-brown;
+        line-height: 2vw;
+      }
+      .sign {
+        margin-top: 10%;
+        font-family: "Mr Dafoe";
+        font-size: 6vw;
+        color: $dark-blue;
+        text-shadow: -2px 0px 0px #B9C9C7;
+        text-align: right;
+      }
+    }
+    .knowledge {
+      width: 50%;
+      margin-left: 5%;
+      .learnt {
+        text-align: right;
+      }
+      h2 {
+        font-family: "PT Serif";
+        color: $light-brown;
+        text-shadow: -2px 0px 0px #B9C9C7;
+        font-size: 2.5vw;
+      }
+      .line1-logos {
+        display: flex;
+        justify-content: space-around;
+        margin: 10% 10% 15% 0%;
+        img {
+          height: 4vw;
+          margin-left: 30%;
+        }
+      }
+      .line2-logos {
+        display: flex;
+        justify-content: space-between;
+        margin: 20% 10% 20% 0%;
+        img {
+          height: 4vw;
+          margin-right: 30%;
+        }
+      }
     }
   }
 }
+
