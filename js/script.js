@@ -14,10 +14,12 @@ menuIcon.addEventListener('click', () => {
 const circleText = document.querySelector('.circle-text');
 const lightCircleText = document.querySelector('.light-circle-text');
 
-circleText.innerHTML = circleText.textContent.replace(/\S/g,"<span>$&</span>");
-lightCircleText.innerHTML = lightCircleText.textContent.replace(/\S/g,"<span>$&</span>");
+circleText.innerHTML = circleText.textContent.replace(/\S/g,"<span class='hell'>$&</span>");
+lightCircleText.innerHTML = lightCircleText.textContent.replace(/\S/g,"<span class='hell'>$&</span>");
 
-const element = document.querySelectorAll('span');
+const element = document.querySelectorAll('.hell');
 for(let i = 0; i < element.length; i++){
   element[i].style.transform = `rotate(${i+(i*19)}deg)`;
 }
+
+

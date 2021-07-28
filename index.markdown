@@ -85,19 +85,44 @@ title: Main
         <div class="knowledge">
           <h2 class="learnt">What do I know?</h2>
           <div>
-            <div class="line1-logos" style="display: flex;">
-              <img src="/assets/images/ruby.png"/>
-              <img src="/assets/images/bootstrap.svg"/>
-              <img src="/assets/images/html.png"/>
+            <div class="line1-logos">
+              <div class="tooltip">
+                <img src="/assets/images/ruby.png"/><span class="tooltiptext">Ruby on Rails</span>
+              </div>
+              <div class="tooltip">
+                <img src="/assets/images/bootstrap.svg"/><span class="tooltiptext">Bootstrap</span>
+              </div>
+              <div class="tooltip">
+                <img src="/assets/images/html.png"/><span class="tooltiptext">HTML & CSS</span>
+              </div>
             </div>
-            <div class="line2-logos" >
-              <img src="/assets/images/sass.png"/>
-              <img src="/assets/images/js.png"/>
-              <img src="/assets/images/figma.png"/>
-              <img src="/assets/images/marvel.png"/>
+            <div class="line2-logos">
+              <div class="tooltip">
+                <img src="/assets/images/sass.png"/><span class="tooltiptext">Sass</span>
+              </div>
+              <div class="tooltip">
+                <img src="/assets/images/js.png"/><span class="tooltiptext">JavaScript</span>
+              </div>
+              <div class="tooltip">
+                <img src="/assets/images/figma.png"/><span class="tooltiptext">Figma</span>
+              </div>
+              <div class="tooltip">
+                <img src="/assets/images/marvel.png"/><span class="tooltiptext">Marvel</span>
+              </div>
             </div>
           </div>
           <h2>Who do I want to become?</h2>
+          <h4 class="wordCarousel">
+          <span>I want to become amazing at: </span>
+          <div>
+              <ul class="flip4">
+                  <li>Creating clean code!</li>
+                  <li>Testing code!</li>
+                  <li>Work with REST APIs!</li>
+                  <li>Understanding Js Frameworks!</li>
+              </ul>
+          </div>
+      </h4>
         </div>
       </div>
     </div>
