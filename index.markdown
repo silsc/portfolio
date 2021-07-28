@@ -63,16 +63,15 @@ title: Main
         <p>I’m a front end web developer based <br>in Barcelona, Spain 🇪🇸</p>
       <h2>)</h2>
     </div>
-    <!-- <div class="banner-lineround">
-      <h3>Front end</h3>
-      <h3>Developer</h3>
-    </div> -->
+    <div class="banner-lineround">
+      <h3 class="circle-text">Front-end</h3>
+      <h4 class="light-circle-text">developer</h4>
+    </div>
 </div>
 
 <div id="aboutme">
   <div class="aboutme-container">
     <div class="aboutme-card">
-
     </div>
   </div>
 </div>

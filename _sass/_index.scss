@@ -31,6 +31,7 @@ body {
   position: absolute;
   left: 30%;
   top: 3vw;
+  z-index: 1;
 }
   .banner-subtitle {
     display: flex;
@@ -51,6 +52,45 @@ body {
       width: 31vw;
     }
   }
+
+.banner-lineround {
+  position: absolute;
+  right: 24%;
+  top: 15vw;
+  font-family: "Roboto";
+  font-size: 1em;
+  font-weight: 700;
+  animation: animate 7.5s linear infinite;
+  h3 {
+    color: $light-brown;
+    span {
+      top: -100px;
+      position: absolute;
+      display: inline-block;
+      transform-origin: 0 100px;
+    }
+  }
+  h4 {
+    color: $medium-blue;
+    span {
+      top: -100px;
+      position: absolute;
+      display: inline-block;
+      transform-origin: 0 100px;
+    }
+  }
+}
+
+@keyframes animate {
+  0%
+  {
+    transform: rotate(0deg);
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .banner {
