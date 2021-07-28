@@ -1,5 +1,6 @@
 @import "colors";
 @import "navbar";
+@import "aboutme";
 
 body {
   background: $dark-cream;
@@ -10,7 +11,7 @@ body {
   padding: 0;
   margin-top: 5em;
   position: relative;
-  min-height: 50vw;
+  min-height: 40vw;
   h1 {
     color: $dark-brown;
     font-size: 8vw;
@@ -26,12 +27,11 @@ body {
   left: 27%;
   top: 0;
 }
-  .banner-line2 {
-    position: absolute;
-    left: 30%;
-    top: 3vw;
-  }
-
+.banner-line2 {
+  position: absolute;
+  left: 30%;
+  top: 3vw;
+}
   .banner-subtitle {
     display: flex;
     position: absolute;
@@ -52,17 +52,44 @@ body {
     }
   }
 
-.aboutme {
-  .aboutme-container {
-    border-radius: 500px 500px 0px 0px;
-    background: $light-blue;
-    min-height: 300vh;
-  }
-}
-
 @media only screen and (max-width: 600px) {
   .banner {
     min-height: 60vh;
+    h1 {
+    color: $dark-brown;
+    font-size: 15vw;
+      span {
+        font-style: italic;
+        font-size: 20vw;
+      }
+    }
+  }
+  .banner-line1 {
+    position: absolute;
+    left: 10%;
+    top: 0;
+  }
+  .banner-line2 {
+    position: absolute;
+    left: 15%;
+    top: 10vw;
+  }
+  .banner-subtitle {
+    left: 10%;
+    top: 25vw;
+    h2 {
+      font-size: 20vw;
+    }
+    p {
+      color: $light-brown;
+      font-size: 3.9vw;
+      padding: 30% 7%;
+      line-height: 1.6em;
+      width: 60vw;
+      br {
+        display: none;
+      }
+    }
   }
 }
 

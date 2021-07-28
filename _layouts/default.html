@@ -5,23 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/main.css">
+    <script src="../js/script.js" async></script>
     <title>{{ page.title }}</title>
    <!--  <link rel="shortcut icon" href="assets/images/favicon.png"> -->
 </head>
 <body>
   {{ content }}
-  <script>
-    const menuIcon = document.querySelector('.hamburger-menu');
-    const navbar = document.querySelector('.navbar');
-    const body = document.body;
-    menuIcon.addEventListener('click', () => {
-      navbar.classList.toggle('change');
-      if (navbar.classList.contains('change')) {
-        body.classList.add('hidden');
-      } else {
-        body.classList.add('show');
-      }
-    })
-  </script>
 </body>
 </html>

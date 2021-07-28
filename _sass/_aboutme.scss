@@ -1,0 +1,12 @@
+@import "colors";
+
+#aboutme {
+  .aboutme-container {
+    padding-top: 10%;
+    .aboutme-card {
+      border-radius: 500px 500px 0px 0px;
+      background: $light-blue;
+      min-height: 300vh;
+    }
+  }
+}
