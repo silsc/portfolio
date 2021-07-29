@@ -7,7 +7,7 @@
       position: relative;
       border-radius: 500px 500px 0px 0px;
       background: $light-blue;
-      min-height: 300vh;
+      // min-height: 300vh;
       h1 {
         position: absolute;
         top: 3%;
@@ -25,7 +25,7 @@
       .aboutme-box {
         display: flex;
         top: 20%;
-        padding: 20% 12%;
+        padding: 20% 12% 35% 12%;
         .aboutme-text {
           p {
             font-size: 1.3vw;

@@ -1,0 +1,32 @@
+@import 'colors';
+
+.work-container {
+  background: white;
+  min-height: 50vw;
+  position: relative;
+  border-radius: 300px 300px 0 0;
+  bottom: 20em;
+  .work-header {
+    position: absolute;
+    width: 100%;
+    margin-top: 3%;
+    h1 {
+    font-family: "PT Serif";
+    color: $dark-brown;
+    font-size: 5.5vw;
+    margin: 0 0 0 15%;
+    }
+    .work-header-line2 {
+      padding-left: 10%;
+    }
+    .work-circle {
+      position: absolute;
+      top: 33%;
+      right: 4.5%;
+    }
+  }
+  .work-arrow {
+    position: absolute;
+    top: -18%;
+  }
+}
