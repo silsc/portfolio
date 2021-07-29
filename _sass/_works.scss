@@ -1,15 +1,12 @@
-@import 'colors';
-
-.work-container {
+#work {
   background: white;
-  min-height: 50vw;
+  padding-bottom: 5%;
   position: relative;
   border-radius: 300px 300px 0 0;
   bottom: 20em;
   .work-header {
-    position: absolute;
     width: 100%;
-    margin-top: 3%;
+    padding-top: 6%;
     h1 {
     font-family: "PT Serif";
     color: $dark-brown;
@@ -21,12 +18,63 @@
     }
     .work-circle {
       position: absolute;
-      top: 33%;
+      top: 15%;
       right: 4.5%;
     }
   }
   .work-arrow {
     position: absolute;
-    top: -18%;
+    top: -8%;
+  }
+  .carousel-container {
+    display: flex;
+    width: 90vw;
+    margin: 5%;
+    .panel {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 90vh;
+      border-radius: 50px;
+      color: #ffffff;
+      cursor: pointer;
+      flex: 0.5;
+      margin: 10px;
+      position: relative;
+      transition: flex 0.7s ease-in;
+    }
+
+    .panel a {
+      font-family: "PT Sans";
+      font-size: 1.5em;
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      opacity: 0;
+      text-decoration: none;
+      color: white;
+      padding: 2% 3%;
+      border-radius: 2em;
+      background-color: $medium-blue;
+    }
+
+    .panel.active {
+      flex: 4;
+    }
+
+    .panel.active a {
+      opacity: 1;
+      transition: opacity 0.3s ease-in 0.4s;
+    }
+
+    @media(max-width: 480px) {
+      .container{
+        width: 100vw;
+      }
+      .panel:nth-of-type(4),
+      .panel:nth-of-type(5) {
+        display: none;
+      }
+    }
   }
 }

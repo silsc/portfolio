@@ -1,3 +1,4 @@
+// Navbar
 const menuIcon = document.querySelector('.hamburger-menu');
 const navbar = document.querySelector('.navbar');
 const body = document.body;
@@ -11,6 +12,7 @@ menuIcon.addEventListener('click', () => {
       // }
     })
 
+// Banner Circle
 const circleText = document.querySelector('.circle-text');
 const lightCircleText = document.querySelector('.light-circle-text');
 
@@ -22,4 +24,20 @@ for(let i = 0; i < element.length; i++){
   element[i].style.transform = `rotate(${i+(i*19)}deg)`;
 }
 
+// Works carousel
+const panels = document.querySelectorAll('.panel')
+
+panels.forEach((panel) => {
+  panel.addEventListener('click', () => {
+    removeActiveClasses()
+    panel.classList.add('active')
+  })
+})
+
+function removeActiveClasses () {
+  panels.forEach(panel => {
+    panel.classList.remove('active')
+  }
+
+)}
 

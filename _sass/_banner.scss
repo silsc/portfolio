@@ -1,0 +1,125 @@
+.banner {
+  padding: 0;
+  margin-top: 5em;
+  position: relative;
+  min-height: 40vw;
+  h1 {
+    color: $dark-brown;
+    font-size: 8vw;
+    span {
+      font-style: italic;
+      font-size: 14vw;
+    }
+  }
+}
+
+.banner-line1 {
+  position: absolute;
+  left: 27%;
+  top: 0;
+}
+.banner-line2 {
+  position: absolute;
+  left: 30%;
+  top: 3vw;
+  z-index: 1;
+}
+  .banner-subtitle {
+    display: flex;
+    position: absolute;
+    left: 24%;
+    top: 19vw;
+    h2 {
+      color: $dark-blue;
+      font-size: 6vw;
+      font-family: "PT Serif";
+      font-weight: 400;
+    }
+    p {
+      color: $light-brown;
+      font-size: 1.5vw;
+      padding: 17% 10%;
+      line-height: 1.6em;
+      width: 31vw;
+    }
+  }
+
+.banner-lineround {
+  position: absolute;
+  right: 24%;
+  top: 15vw;
+  font-family: "Roboto";
+  font-size: 1em;
+  font-weight: 700;
+  animation: animate 7.5s linear infinite;
+  h3 {
+    color: $light-brown;
+    span {
+      top: -100px;
+      position: absolute;
+      display: inline-block;
+      transform-origin: 0 100px;
+    }
+  }
+  h4 {
+    color: $medium-blue;
+    span {
+      top: -100px;
+      position: absolute;
+      display: inline-block;
+      transform-origin: 0 100px;
+    }
+  }
+}
+
+@keyframes animate {
+  0%
+  {
+    transform: rotate(0deg);
+  }
+  100%
+  {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    min-height: 60vh;
+    h1 {
+    color: $dark-brown;
+    font-size: 15vw;
+      span {
+        font-style: italic;
+        font-size: 20vw;
+      }
+    }
+  }
+  .banner-line1 {
+    position: absolute;
+    left: 10%;
+    top: 0;
+  }
+  .banner-line2 {
+    position: absolute;
+    left: 15%;
+    top: 10vw;
+  }
+  .banner-subtitle {
+    left: 10%;
+    top: 25vw;
+    h2 {
+      font-size: 20vw;
+    }
+    p {
+      color: $light-brown;
+      font-size: 3.9vw;
+      padding: 30% 7%;
+      line-height: 1.6em;
+      width: 60vw;
+      br {
+        display: none;
+      }
+    }
+  }
+}
