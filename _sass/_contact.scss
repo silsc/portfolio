@@ -9,13 +9,16 @@
         font-weight: 700;
         font-size: 6.5vw;
         margin: 0;
+        margin-bottom: 10%;
         color: $light-brown;
       }
       .contact-header-line2 {
         color: $medium-blue;
-        position: relative;
-        width: 70%;
-        left: 30vw;
+        position: absolute;
+        margin: 0;
+        width: 53vw;
+        left: 40vw;
+        top: 13vw;
       }
       .contact-circle {
         position: absolute;
