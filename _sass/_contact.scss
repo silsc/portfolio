@@ -30,6 +30,7 @@
     background: $light-cream;
     border-radius: 200px 200px 0 0;
     min-height: 60vh;
+    padding-bottom: 5%;
     h3 {
         font-weight: 300;
         font-size: 3vw;
@@ -73,16 +74,20 @@
     }
     .social-box {
       position: relative;
+      margin-bottom: 5%;
       h3 {
         padding-top: 5%;
         position: relative;
         left: 14vw;
         width: 50%;
       }
+      svg {
+        width: 7vw;
+      }
       .contact-icons {
         display: flex;
         position: relative;
-        left: 45em;
+        left: 45vw;
         width: 30%;
         text-decoration: none;
         a {
