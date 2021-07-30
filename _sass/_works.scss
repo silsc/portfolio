@@ -18,13 +18,15 @@
     }
     .work-circle {
       position: absolute;
-      top: 15%;
-      right: 4.5%;
+      top: 11vw;
+      width: 20vw;
+      right: 4.5vw;
     }
   }
   .work-arrow {
     position: absolute;
-    top: -8%;
+    width: 20vw;
+    top: -8vw;
   }
   .carousel-container {
     display: flex;
@@ -37,13 +39,11 @@
       height: 90vh;
       border-radius: 50px;
       color: #ffffff;
-      cursor: pointer;
       flex: 0.5;
       margin: 10px;
       position: relative;
       transition: flex 0.7s ease-in;
     }
-
     .panel a {
       font-family: "PT Sans";
       font-size: 1.5em;

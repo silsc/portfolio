@@ -45,6 +45,12 @@
         text-align: right;
         margin-bottom: 5%;
       }
+      .underline-email {
+        position: absolute;
+        top: 8.2vw;
+        right: 13vw;
+        width: 10vw;
+      }
       .email {
         display: flex;
         border-radius: 20px;
@@ -75,6 +81,13 @@
     .social-box {
       position: relative;
       margin-bottom: 5%;
+      .underline-sns {
+        position: absolute;
+        top: 8.2vw;
+        left: 37vw;
+        width: 20vw;
+        height: 0.5vw;
+      }
       h3 {
         padding-top: 5%;
         position: relative;
@@ -104,6 +117,13 @@
   }
   .cv {
     padding: 0 20%;
+    position: relative;
+    .circle-cv {
+      position: absolute;
+      top: 5.5vw;
+      right: 32vw;
+      width: 5vw;
+    }
     h4 {
       font-size: 2vw;
       font-weight: 300;
