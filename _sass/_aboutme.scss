@@ -7,7 +7,14 @@
       position: relative;
       border-radius: 30vw 30vw 0 0;
       background: $light-blue;
-      // min-height: 300vh;
+      .underline-aboutme {
+        position: absolute;
+        top: 13vw;
+        left: 45vw;
+        width: 20vw;
+        height: 0.5vw;
+        z-index: 100;
+      }
       h1 {
         position: absolute;
         top: 3%;
@@ -18,7 +25,7 @@
       }
       .avatar {
         position: absolute;
-        top: -5%;
+        top: -8%;
         left: 30%;
         transform: rotate(-14.86deg);
       }
