@@ -26,4 +26,30 @@ body {
   a {
     text-decoration: none;
   }
+  #preloader {
+    background: $dark-cream url(../assets/images/preloader.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 101;
+    transition: 1s ease;
+  }
+  .section {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    -webkit-transition-delay: 2s;
+    -o-transition-delay: 2s;
+    transition-delay: 2s;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    opacity: 0;
+  }
+  .inView {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
 }
+
+

@@ -69,7 +69,7 @@ title: Hey it's Silvia
     </div>
 </div>
 
-<div id="aboutme">
+<div id="aboutme" class="section">
   <div class="aboutme-container">
     <div class="aboutme-card">
       <h1>About me</h1>
@@ -81,7 +81,10 @@ title: Hey it's Silvia
           <br>
           <br>Vivamus finibus purus vel dui auctor tincidunt. Proin massa lacus, consequat sagittis pretium posuere, lobortis in lectus. Nullam dignissim elementum sem eu pharetra. In nec augue nisl. Vestibulum arcu turpis, bibendum nec semper non, accumsan id ipsum. Suspendisse potenti. Cras lacinia enim luctus, laoreet elit vel, feugiat
           </p>
-          <div class="sign">Silvia Salat.</div>
+          <div class="sign">
+            Silvia&nbsp;&nbsp;Salat.
+            <div class="fadingEffect"></div>
+          </div>
         </div>
         <div class="knowledge">
           <h2 class="learnt">What do I know?</h2>
@@ -130,7 +133,7 @@ title: Hey it's Silvia
   </div>
 </div>
 
-<div id="work">
+<div id="work" class="section">
   <div class="work-container">
     <img src="/assets/images/work-arrow.png" class="work-arrow"/>
     <div class="work-header">
@@ -155,7 +158,7 @@ title: Hey it's Silvia
   </div>
 </div>
 
-<div id="contact">
+<div id="contact" class="section">
   <div class="contact-header-container">
     <div class="contact-header">
       <h1>Say hello and</h1>
@@ -207,3 +210,12 @@ title: Hey it's Silvia
       </a>
     </div>
 </div>
+
+<script>
+  setTimeout(function() {
+    var loader = document.getElementById("preloader");
+    loader.style.WebkitTransition = 'visibility .5s, opacity .5s';
+    loader.style.opacity = '0';
+    loader.style.visibility = 'hidden';
+  }, 1250);
+</script>

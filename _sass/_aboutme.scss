@@ -41,12 +41,14 @@
             line-height: 2vw;
           }
           .sign {
-            margin-top: 10%;
+            position: relative;
+            margin: 10% 10% 0 0;
             font-family: "Mr Dafoe";
-            font-size: 6vw;
+            font-size: 4vw;
             color: $dark-blue;
             text-shadow: -2px 0px 0px #B9C9C7;
             text-align: right;
+            animation: fade 3s ease-in alternate infinite;
           }
         }
       }
@@ -195,3 +197,7 @@
     100% { margin-top: -270px; }
 }
 
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
