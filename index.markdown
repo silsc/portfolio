@@ -73,7 +73,7 @@ title: Hey it's Silvia
   <div class="aboutme-container">
     <div class="aboutme-card">
       <h1>About me</h1>
-      <img src="/assets/images/avatar.png" class="avatar" style="width: 20%;"/>
+      <img src="/assets/images/avatar.jpg" class="avatar" style="width: 20%;"/>
       <div class="aboutme-box">
         <div class="aboutme-text">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non est et massa blandit porta at nec urna. Donec maximus ornare congue. Vivamus commodo urna dui, sit amet sodales dui volutpat nec. Nunc a ultricies ante, in tincidunt orci. Proin vitae lorem et sapien laoreet fringilla bibendum non metus. Aenean et nibh non eros ornare porttitor nec a felis. Integer in nunc felis. Curabitur eleifend fermentum molestie. Vestibulum eget eros elementum, semper ligula vel, rutrum nisi. Fusce eget dui ut tortor luctus lobortis a ac odio. Maecenas dui nibh, cursus a consectetur a, dapibus id velit.
