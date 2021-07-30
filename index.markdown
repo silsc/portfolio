@@ -158,8 +158,8 @@ title: Hey it's Silvia
   </div>
 </div>
 
-<div id="contact" class="section">
-  <div class="contact-header-container">
+<div id="contact">
+  <div class="contact-header-container section">
     <div class="contact-header">
       <h1>Say hello and</h1>
       <h1 class="contact-header-line2">let’s collaborate!</h1>
@@ -211,11 +211,3 @@ title: Hey it's Silvia
     </div>
 </div>
 
-<script>
-  setTimeout(function() {
-    var loader = document.getElementById("preloader");
-    loader.style.WebkitTransition = 'visibility .5s, opacity .5s';
-    loader.style.opacity = '0';
-    loader.style.visibility = 'hidden';
-  }, 1250);
-</script>
