@@ -113,16 +113,16 @@ title: Hey it's Silvia
           </div>
           <h2>Who do I want to become?</h2>
           <h4 class="wordCarousel">
-          <span>I want to become amazing at: </span>
-          <div>
-              <ul class="flip4">
-                  <li>Creating clean code!</li>
-                  <li>Testing code!</li>
-                  <li>REST APIs!</li>
-                  <li>Js Frameworks!</li>
-              </ul>
-          </div>
-      </h4>
+            <span>I want to become amazing at: </span>
+            <div>
+                <ul class="flip4">
+                    <li>Creating clean code!</li>
+                    <li>Testing code!</li>
+                    <li>REST APIs!</li>
+                    <li>Js Frameworks!</li>
+                </ul>
+            </div>
+          </h4>
         </div>
       </div>
     </div>
@@ -163,6 +163,7 @@ title: Hey it's Silvia
     <div class="contact-header">
       <h1>Say hello and</h1>
       <h1 class="contact-header-line2">let’s collaborate!</h1>
+      <img src="/assets/images/circle.png" class="contact-circle"/>
     </div>
   </div>
     <div class="contact-info-container">
@@ -176,6 +177,7 @@ title: Hey it's Silvia
           <h4>salat.silvia@gmail.com</h4>
         </div>
         </a>
+        <img src="/assets/images/contact-arrow1.png" class="contact-arrow1"/>
       </div>
       <div class="social-box">
         <h3>If you’re more into social media</h3>
@@ -196,9 +198,12 @@ title: Hey it's Silvia
             </svg>
           </a>
         </div>
+        <img src="/assets/images/contact-arrow2.png" class="contact-arrow2"/>
       </div>
-      <div class="cv">
-        <h4>You can also check my cv by clicking here</h4>
-      </div>
+      <a href="/assets/cv.pdf" target="blank">
+        <div class="cv">
+          <h4>You can also check my cv by clicking here</h4>
+        </div>
+      </a>
     </div>
 </div>

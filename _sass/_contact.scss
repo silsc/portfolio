@@ -17,6 +17,12 @@
         width: 70%;
         left: 30vw;
       }
+      .contact-circle {
+        position: absolute;
+        top: 3vw;
+        left: 20vw;
+        width: 20vw;
+      }
     }
   }
   .contact-info-container {
@@ -30,6 +36,7 @@
         color: $light-brown;
       }
     .email-box {
+      position: relative;
       h3 {
         padding-top: 5%;
         position: relative;
@@ -57,8 +64,15 @@
           font-size: 1.8vw;
         }
       }
+      .contact-arrow1 {
+        position: absolute;
+        top: 7vw;
+        right: 40vw;
+        width: 15vw;
+      }
     }
     .social-box {
+      position: relative;
       h3 {
         padding-top: 5%;
         position: relative;
@@ -74,6 +88,12 @@
         a {
           margin-right: 20%;
         }
+      }
+      .contact-arrow2 {
+        position: absolute;
+        top: 7vw;
+        left: 30vw;
+        width: 15vw;
       }
     }
   }
