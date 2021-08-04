@@ -38,7 +38,6 @@ function removeActiveClasses () {
   panels.forEach(panel => {
     panel.classList.remove('active')
   }
-
 )}
 
 // Sections on scroll fade in
