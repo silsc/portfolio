@@ -82,17 +82,31 @@
         .tooltiptext {
             visibility: hidden;
             margin-top: 1.5em;
-            width: 120px;
+            font-size: 1vw;
+            width: 8vw;
             background-color: white;
-            color: $light-blue;
+            color: $dark-blue;
             text-align: center;
             border-radius: 6px;
             padding: 0.5em 0;
             position: absolute;
             z-index: 1;
-            top: 100%;
-            left: -10%;
+            top: 80%;
+            left: -30%;
             font-weight: 700;
+            &::after {
+              content: "";
+              display: inline-block;
+              position: absolute;
+              width: 1vw;
+              height: 1vw;
+              transform-origin: 50% 50%;
+              transform: rotate(45deg) translateX(-50%) translateZ(-1px);
+              background-color: #fff;
+              left: 50%;
+              top: 0;
+              z-index: -1;
+            }
           }
         }
 
@@ -115,17 +129,31 @@
         .tooltiptext {
             visibility: hidden;
             margin-top: 1.5em;
-            width: 120px;
+            font-size: 1vw;
+            width: 8vw;
             background-color: white;
-            color: $light-blue;
+            color: $dark-blue;
             text-align: center;
             border-radius: 6px;
             padding: 0.5em 0;
             position: absolute;
             z-index: 1;
-            top: 100%;
+            top: 80%;
             left: -20%;
             font-weight: 700;
+            &::after {
+              content: "";
+              display: inline-block;
+              position: absolute;
+              width: 1vw;
+              height: 1vw;
+              transform-origin: 50% 50%;
+              transform: rotate(45deg) translateX(-50%) translateZ(-1px);
+              background-color: #fff;
+              left: 50%;
+              top: 0;
+              z-index: -1;
+            }
           }
       }
     }
