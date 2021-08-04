@@ -34,9 +34,9 @@
     min-height: 60vh;
     padding-bottom: 5%;
     h3 {
-        font-weight: 300;
-        font-size: 3vw;
-        color: $light-brown;
+      font-weight: 300;
+      font-size: 3vw;
+      color: $light-brown;
       }
     .email-box {
       position: relative;
@@ -146,7 +146,6 @@
       }
       .email-box {
         .underline-email {
-        position: absolute;
         top: 10vw;
         right: 13vw;
         width: 13vw;
@@ -166,6 +165,54 @@
             font-weight: 300;
             font-size: 3vw;
           }
+        }
+        h3 {
+          right: 0;
+          left: 1vw;
+          text-align: center;
+        }
+      }
+      .social-box {
+        position: relative;
+        margin-bottom: 5%;
+        .underline-sns {
+          top: 10vw;
+          left: 53vw;
+          width: 30vw;
+        }
+        h3 {
+          left: 10vw;
+          text-align: left;
+          width: 80%;
+          text-align: center;
+        }
+      }
+      .contact-icons {
+        display: flex;
+        position: relative;
+        left: 45vw;
+        width: 30%;
+        text-decoration: none;
+        a {
+          margin-right: 20%;
+        }
+      }
+      .contact-arrow2 {
+        position: absolute;
+        top: 7vw;
+        left: 30vw;
+        width: 15vw;
+      }
+      .cv {
+        padding: 0 5%;
+        .circle-cv {
+          top: 8.3vw;
+          right: 14vw;
+          width: 9vw;
+        }
+        h4 {
+          font-size: 4vw;
+          padding: 10%;
         }
       }
     }
