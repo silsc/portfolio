@@ -1,8 +1,8 @@
-  #contact {
-    background: $green;
-    position: relative;
-    bottom: 25vw;
-    .contact-header {
+#contact {
+  background: $green;
+  position: relative;
+  bottom: 25vw;
+  .contact-header {
       padding: 5% 10%;
       h1 {
         font-family: "PT Serif";
@@ -26,7 +26,6 @@
         left: 20vw;
         width: 20vw;
       }
-    }
   }
   .contact-info-container {
     width: 100%;
@@ -59,13 +58,14 @@
         border-radius: 20px;
         border: solid 1px $medium-blue;
         width: 26vw;
-        padding: 0 0 0 5%;
+        padding: 0 0 0 5vw;
         color: $light-brown;
         position: relative;
         left: 15vw;
-        svg {
+        .email-icon {
           align-self: center;
-          margin-right: 3%;
+          margin-right: 1vw;
+          width: 3vw;
         }
         h4 {
           align-self: center;
@@ -136,3 +136,38 @@
       background: white;
     }
   }
+}
+
+@media only screen and (max-width: 600px) {
+  #contact {
+    .contact-info-container {
+      h3 {
+        font-size: 5vw;
+      }
+      .email-box {
+        .underline-email {
+        position: absolute;
+        top: 10vw;
+        right: 13vw;
+        width: 13vw;
+        }
+        .email {
+          border-radius: 5px;
+          width: 35vw;
+          padding: 0 5vw 0 3.5vw;
+          top: 3vw;
+          left: 18vw;
+          .email-icon {
+            width: 5vw;
+          }
+          h4 {
+            align-self: center;
+            font-family: "PT Sans";
+            font-weight: 300;
+            font-size: 3vw;
+          }
+        }
+      }
+    }
+  }
+}

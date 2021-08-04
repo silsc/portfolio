@@ -172,9 +172,7 @@ title: Hey it's Silvia
         <img src="/assets/images/underline.png" class="underline-email"/>
         <a href="mailto:salat.silvia@gmail.com?subject=Hello Silvia!">
         <div class="email">
-          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M38 29V11C38 9.34 36.66 8 35 8H6.98001C5.32001 8 3.98001 9.34 3.98001 11V29C3.98001 30.66 5.32001 32 6.98001 32H35C36.66 32 38 30.66 38 29ZM35.38 10.78C36.04 11.44 35.68 12.12 35.32 12.46L27.2 19.9L35 28.02C35.24 28.3 35.4 28.74 35.12 29.04C34.86 29.36 34.26 29.34 34 29.14L25.26 21.68L20.98 25.58L16.72 21.68L7.98001 29.14C7.72001 29.34 7.12001 29.36 6.86001 29.04C6.58001 28.74 6.74001 28.3 6.98001 28.02L14.78 19.9L6.66001 12.46C6.30001 12.12 5.94001 11.44 6.60001 10.78C7.26001 10.12 7.94001 10.44 8.50001 10.92L20.98 21L33.48 10.92C34.04 10.44 34.72 10.12 35.38 10.78Z" fill="#757570"/>
-          </svg>
+          <img src="/assets/images/email.png" class="email-icon"/>
           <h4>salat.silvia@gmail.com</h4>
         </div>
         </a>
