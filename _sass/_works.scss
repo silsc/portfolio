@@ -76,28 +76,42 @@
       transition: opacity 0.3s ease-in 0.4s;
     }
   }
+  .workcards-container {
+    display: none;
+  }
 }
 
  @media(max-width: 600px) {
       #work {
+        bottom: 14vw;
+        .workshow {
+          padding: 10%;
+          .workcards-container {
+            display: flex;
+            justify-content: space-around;
+            .workcard {
+              position: relative;
+              width: 35vw;
+              height: 15em;
+              border: 1px solid $light-blue;
+              border-radius: 10px;
+              margin: 3%;
+              align-self: center;
+              text-align: center;
+              background-size: cover;
+              h3 {
+                position: absolute;
+                bottom: -9%;
+                background: $light-blue;
+                width: 100%;
+                padding: 10% 0;
+                border-radius: 0 0 10px 10px;
+              }
+            }
+          }
+        }
         .carousel-container{
-          width: 90vw;
-          .panel {
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            height: 90vh;
-            border-radius: 50px;
-            color: #ffffff;
-            flex: 1;
-            margin: 10px;
-            position: relative;
-            transition: flex 0.7s ease-in;
-          }
-          .panel:nth-of-type(3),
-          .panel:nth-of-type(4) {
-            display: none;
-          }
+          display: none;
         }
       }
     }

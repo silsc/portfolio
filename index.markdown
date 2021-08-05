@@ -156,6 +156,25 @@ title: Hey it's Silvia
         <a class="btn" href="#">Go to project</a>
       </div>
     </div>
+    <div class="workshow">
+      <div class="workcards-container">
+        <div class="workcard" style="background-image: url('/assets/images/spotlight.png'); cursor: pointer;" onclick="window.location='http://www.spotlight-connect.com/';">
+          <h3>SpotLight</h3>
+        </div>
+        <div class="workcard" style="background-image: url('/assets/images/danisalat.png'); cursor: pointer;" onclick="window.location='http://www.spotlight-connect.com/';">
+          <h3>Dani Salat</h3>
+        </div>
+      </div>
+      <div class="workcards-container">
+        <div class="workcard" style="background-image: url('/assets/images/spotlight.png'); cursor: pointer;" onclick="window.location='http://www.spotlight-connect.com/';">
+          <h3>Rent your chef</h3>
+        </div>
+        <div class="workcard" style="background-image: url('/assets/images/spotlight.png'); cursor: pointer;" onclick="window.location='http://www.spotlight-connect.com/';">
+          <h3>SpotLight</h3>
+        </div>
+      </div>
+    </div>
+    </div>
   </div>
 </div>
 
