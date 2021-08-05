@@ -141,6 +141,8 @@
 @media only screen and (max-width: 600px) {
   #contact {
     .contact-info-container {
+      min-height: none;
+      padding-bottom: 5%;
       h3 {
         font-size: 5vw;
       }
@@ -207,9 +209,6 @@
         padding: 0 5%;
         .circle-cv {
           display: none;
-          // top: 9vw;
-          // right: 14vw;
-          // width: 9vw;
         }
         h4 {
           font-size: 4vw;
