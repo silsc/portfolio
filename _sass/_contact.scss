@@ -206,9 +206,10 @@
       .cv {
         padding: 0 5%;
         .circle-cv {
-          top: 9vw;
-          right: 14vw;
-          width: 9vw;
+          display: none;
+          // top: 9vw;
+          // right: 14vw;
+          // width: 9vw;
         }
         h4 {
           font-size: 4vw;
