@@ -67,6 +67,7 @@ title: Hey it's Silvia
       <h3 class="circle-text">Front-end</h3>
       <h4 class="light-circle-text">developer</h4>
     </div>
+    <img src="/assets/images/next.png" class="next-arrow"/>
 </div>
 
 <div id="aboutme" class="section">

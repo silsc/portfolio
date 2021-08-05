@@ -72,6 +72,25 @@
   }
 }
 
+.next-arrow {
+  position: relative;
+  left: 45vw;
+  top: 35vw;
+  width: 5vw;
+  animation: updown 1s infinite alternate;
+  -webkit-animation: updown 1s infinite  alternate;
+}
+
+@-webkit-keyframes updown {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-2vw); }
+}
+@keyframes updown {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-2vw); }
+}
+
+
 @keyframes animate {
   0%
   {
@@ -140,5 +159,7 @@
       }
     }
   }
-
+  .next-arrow {
+    display: none;
+  }
 }
