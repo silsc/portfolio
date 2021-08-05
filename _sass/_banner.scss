@@ -123,22 +123,22 @@
     }
   }
   .banner-lineround {
-  position: absolute;
-  right: 19%;
-  top: 23vw;
-  font-size: 0.7em;
-  h3 {
-    span {
-      top: -60px;
-      transform-origin: 0 70px;
+    position: absolute;
+    right: 19%;
+    top: 23vw;
+    font-size: 0.7em;
+    h3 {
+      span {
+        top: -60px;
+        transform-origin: 0 70px;
+      }
+    }
+    h4 {
+      span {
+        top: -60px;
+        transform-origin: 0 70px;
+      }
     }
   }
-  h4 {
-    span {
-      top: -60px;
-      transform-origin: 0 70px;
-    }
-  }
-}
 
 }
