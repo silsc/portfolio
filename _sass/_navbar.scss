@@ -87,6 +87,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .top-header {
+    display: flex;
+    height: 20vw;
+  }
   .navbar {
     width: 100vw;
     right: -100vw;
