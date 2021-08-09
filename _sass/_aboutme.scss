@@ -34,12 +34,27 @@
         top: 20%;
         padding: 20% 12% 35% 12%;
         .aboutme-text {
-          p {
+          p, .highlight {
             font-size: 1.3vw;
             font-family: "PT Sans";
             color: $light-brown;
             line-height: 2vw;
           }
+
+          span {
+            font-weight: 700;
+            background-position: left;
+            background-size: 0% 100%;
+            background: $light-blue;
+            background: linear-gradient(to left, $light-blue 50%, yellow 50%) right;
+            background-size: 205%;
+            transition: .5s ease-out;
+          }
+
+          span:hover {
+            background-position: left;
+          }
+
           .sign {
             position: relative;
             margin: 10% 10% 0 0;

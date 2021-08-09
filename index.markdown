@@ -78,9 +78,11 @@ title: Hey it's Silvia
       <img src="/assets/images/avatar.jpg" class="avatar" style="width: 20%;"/>
       <div class="aboutme-box">
         <div class="aboutme-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non est et massa blandit porta at nec urna. Donec maximus ornare congue. Vivamus commodo urna dui, sit amet sodales dui volutpat nec. Nunc a ultricies ante, in tincidunt orci. Proin vitae lorem et sapien laoreet fringilla bibendum non metus. Aenean et nibh non eros ornare porttitor nec a felis. Integer in nunc felis. Curabitur eleifend fermentum molestie. Vestibulum eget eros elementum, semper ligula vel, rutrum nisi. Fusce eget dui ut tortor luctus lobortis a ac odio. Maecenas dui nibh, cursus a consectetur a, dapibus id velit.
+          <p>Hey, it's me <span>Silvia</span>! Learning is my passion and that's exactly what got me from learning different languages and cultures, to learn how to code. I am passionate about beautiful things and that's exactly what I want to do for a living: <span>create beautiful websites</span> where people can feel like they are in a different reality.
           <br>
-          <br>Vivamus finibus purus vel dui auctor tincidunt. Proin massa lacus, consequat sagittis pretium posuere, lobortis in lectus. Nullam dignissim elementum sem eu pharetra. In nec augue nisl. Vestibulum arcu turpis, bibendum nec semper non, accumsan id ipsum. Suspendisse potenti. Cras lacinia enim luctus, laoreet elit vel, feugiat
+          <br>I'm always exited about <span>helping other's vision come to life</span> that's why after graduating from my <span>Fulllstack web development bootcamp</span> at Le Wagon Barcelona, I decided to become a <span>front end developer</span> and, at the same time, keep on learning by enrolling in a <span>UX/UI Design Master degree</span> at Three Points Digital Bussiness School.
+          <br>
+          <br>I truly believe all my past experiences and studies have helped me to become a <span>versatile professional</span> and I can't wait to keep on creating amazing websites and challenge myself everyday.
           </p>
           <div class="sign">
             Silvia&nbsp;&nbsp;Salat.
