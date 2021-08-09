@@ -33,6 +33,7 @@ body {
     position: fixed;
     z-index: 101;
     transition: 1s ease;
+    top: 0;
   }
   .section {
     -webkit-transform: translateY(50px);

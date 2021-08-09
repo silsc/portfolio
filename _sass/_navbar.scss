@@ -1,15 +1,19 @@
 .top-header {
   display: flex;
-  justify-content: space-between;
+  height: 10vw;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  backdrop-filter: blur(10px);
   .logo {
     text-decoration: none;
     color: $dark-blue;
     background: white;
     padding: 0 1.7em;
     position: fixed;
-    top: 5vw;
-    left: 6vw;
-    z-index: 2;
+    top: 3vw;
+    left: 4vw;
   }
 }
 
@@ -19,8 +23,8 @@
   width: 3em;
   height: 3em;
   position: fixed;
-  top: 5vw;
-  right: 6vw;
+  top: 3.5vw;
+  right: 4vw;
   .line1, .line2 {
   width: 35px;
   height: 0.3em;
