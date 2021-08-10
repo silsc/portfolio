@@ -32,7 +32,7 @@
       .aboutme-box {
         display: flex;
         top: 20%;
-        padding: 20% 12% 20% 12%;
+        padding: 20% 12% 35% 12%;
         .aboutme-text {
           p, .highlight {
             font-size: 1.3vw;
@@ -259,6 +259,7 @@
         }
         .aboutme-box {
           display: block;
+          padding: 20% 12% 25% 12%;
           .aboutme-text {
             p {
               font-size: 3vw;
