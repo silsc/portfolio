@@ -1,0 +1,13 @@
+---
+layout: default
+page: 404
+---
+
+{% include navbar.html %}
+<div class="container">
+  <div class="border">
+    <h1>Seems like we got lost.</h1>
+    <p>How about going back to Silvia's world?</p>
+    <a href="/index">Take me back</a>
+  </div>
+</div>

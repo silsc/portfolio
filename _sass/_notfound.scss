@@ -1,0 +1,26 @@
+.container {
+  margin: 10% auto;
+  max-width: 600px;
+  text-align: center;
+  background: $medium-blue;
+  padding: 10% 5%;
+  .border {
+    border: 2px solid white;
+  }
+  h1 {
+    font-size: 3.5em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+  p {
+    margin: 5% 0 8% 0;
+    font-size: 1.5em;
+  }
+  a {
+    padding: 3%;
+    text-decoration: none;
+    background: white;
+    color: $light-brown;
+    border-radius: 1.5em;
+  }
+}
