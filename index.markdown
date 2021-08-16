@@ -105,15 +105,12 @@ title: Hey it's Silvia
       <div class="panel active" style="background-image: url('/assets/images/spotlight.png'); cursor: pointer;" onclick="window.location='http://www.spotlight-connect.com/';">
         <a class="btn" href="http://www.spotlight-connect.com/">Go to project</a>
       </div>
-      <div class="panel" style="background-image: url('/assets/images/danisalat.png'); cursor: pointer;" onclick="window.location='https://silsc.github.io/';">
+      <div class="panel" style="background-image: url('/assets/images/danisalat.png'); cursor: pointer;" onclick="window.location='https://danisalat.com/';">
         <a class="btn" href="https://silsc.github.io/">Go to project</a>
       </div>
-      <div class="panel" style="background-image: url('/assets/images/rent.png')">
+      <div class="panel" style="background-image: url('/assets/images/rent.png'); cursor: pointer;" onclick="window.location='http://rentyourchef.herokuapp.com/';">
         <a class="btn" href="http://rentyourchef.herokuapp.com/">Go to project</a>
       </div>
-      <!-- <div class="panel" style="background-image: url('https://source.unsplash.com/collection/190727/auto=format&fit=crop&w=1350&q=80')">
-        <a class="btn" href="#">Go to project</a>
-      </div> -->
     </div>
     <div class="workshow">
       <div class="workcards-container">
