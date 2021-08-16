@@ -182,6 +182,9 @@ title: Hey it's Silvia
           <h4>You can also check my cv by clicking here</h4>
         </div>
       </a>
+      <div class="footer">
+          <p>© Designed and developed by <span>Silvia Salat</span></p>
+      </div>
     </div>
 </div>
 

@@ -136,6 +136,18 @@
       background: white;
     }
   }
+  .footer {
+    text-align: center;
+    p {
+      font-family: "PT Serif";
+      font-weight: 700;
+      font-size: 1em;
+      color: $dark-blue;
+    }
+    span {
+      color: $light-brown;
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {
