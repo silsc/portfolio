@@ -102,13 +102,13 @@ title: Hey it's Silvia
       <img src="/assets/images/work-circle.png" class="work-circle"/>
     </div>
     <div class="carousel-container">
-      <div class="panel active" style="background-image: url('/assets/images/spotlight.png'); cursor: pointer;" onclick="window.location='http://www.spotlight-connect.com/';">
+      <div class="panel active" style="background-image: url('/assets/images/spotlight.png'); cursor: pointer;" onclick="window.open('http://www.spotlight-connect.com/');">
         <a class="btn" href="http://www.spotlight-connect.com/">Go to project</a>
       </div>
-      <div class="panel" style="background-image: url('/assets/images/danisalat.png'); cursor: pointer;" onclick="window.location='https://danisalat.com/';">
+      <div class="panel" style="background-image: url('/assets/images/danisalat.png'); cursor: pointer;" onclick="window.open('http://danisalat.com/');">
         <a class="btn" href="https://silsc.github.io/">Go to project</a>
       </div>
-      <div class="panel" style="background-image: url('/assets/images/rent.png'); cursor: pointer;" onclick="window.location='http://rentyourchef.herokuapp.com/';">
+      <div class="panel" style="background-image: url('/assets/images/rent.png'); cursor: pointer;" onclick="window.open('http://rentyourchef.herokuapp.com/');">
         <a class="btn" href="http://rentyourchef.herokuapp.com/">Go to project</a>
       </div>
     </div>
