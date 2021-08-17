@@ -117,7 +117,7 @@ title: Hey it's Silvia
     </div>
     <div class="workshow">
       <div class="workcards-container">
-        <div class="workcard" style="background-image: url('/assets/images/spotlight.png'); cursor: pointer;" onclick="window.open('http://www.spotlight-connect.com/');">>
+        <div class="workcard" style="background-image: url('/assets/images/spotlight.png'); cursor: pointer;" onclick="window.open('http://www.spotlight-connect.com/');">
           <h3>Spotlight</h3>
         </div>
         <div class="workcard" style="background-image: url('/assets/images/danisalat.png'); cursor: pointer;" onclick="window.open('http://danisalat.com/');">
