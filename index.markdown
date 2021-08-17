@@ -106,28 +106,29 @@ title: Hey it's Silvia
         <a class="btn" href="http://www.spotlight-connect.com/">Go to project</a>
       </div>
       <div class="panel" style="background-image: url('/assets/images/danisalat.png'); cursor: pointer;" onclick="window.open('http://danisalat.com/');">
-        <a class="btn" href="https://silsc.github.io/">Go to project</a>
+        <a class="btn" href="http://danisalat.com/">Go to project</a>
       </div>
       <div class="panel" style="background-image: url('/assets/images/rent.png'); cursor: pointer;" onclick="window.open('http://rentyourchef.herokuapp.com/');">
         <a class="btn" href="http://rentyourchef.herokuapp.com/">Go to project</a>
       </div>
+      <div class="panel" style="background-image: url('/assets/images/elrincon.png'); cursor: pointer;" onclick="window.open('https://el-rincon.webflow.io/');">
+        <a class="btn" href="https://el-rincon.webflow.io/">Go to project</a>
+      </div>
     </div>
     <div class="workshow">
       <div class="workcards-container">
-        <div class="workcard" style="background-image: url('/assets/images/spotlight.png'); cursor: pointer;" onclick="window.location='http://www.spotlight-connect.com/';">
-          <h3>SpotLight</h3>
+        <div class="workcard" style="background-image: url('/assets/images/spotlight.png'); cursor: pointer;" onclick="window.open('http://www.spotlight-connect.com/');">>
         </div>
-        <div class="workcard" style="background-image: url('/assets/images/danisalat.png'); cursor: pointer;" onclick="window.location='https://danisalat.netlify.app/';">
-          <h3>Dani Salat</h3>
+        <div class="workcard" style="background-image: url('/assets/images/danisalat.png'); cursor: pointer;" onclick="window.open('http://danisalat.com/');">
         </div>
       </div>
       <div class="workcards-container">
-        <div class="workcard" style="background-image: url('/assets/images/rent.png'); cursor: pointer;" onclick="window.location='http://rentyourchef.herokuapp.com/';">
+        <div class="workcard" style="background-image: url('/assets/images/rent.png'); cursor: pointer;" onclick="window.open('http://rentyourchef.herokuapp.com/');">
           <h3>Rent your chef</h3>
         </div>
-        <!-- <div class="workcard" style="background-image: url('/assets/images/spotlight.png'); cursor: pointer;" onclick="window.location='http://www.spotlight-connect.com/';">
-          <h3>SpotLight</h3>
-        </div> -->
+        <div class="workcard" style="background-image: url('/assets/images/elrincon.png'); cursor: pointer;" onclick="window.location='https://el-rincon.webflow.io/';">
+          <h3>El rincón</h3>
+        </div>
       </div>
     </div>
     </div>
