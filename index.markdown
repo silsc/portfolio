@@ -116,23 +116,22 @@ title: Hey it's Silvia
       </div>
     </div>
     <div class="workshow">
-      <div class="workcards-container">
-        <div class="workcard" style="background-image: url('/assets/images/spotlight.png'); cursor: pointer;" onclick="window.open('http://www.spotlight-connect.com/');">
-          <h3>Spotlight</h3>
+        <div class="workcards-container">
+          <div class="workcard" style="background-image: url('/assets/images/spotlight.png'); cursor: pointer;" onclick="window.open('http://www.spotlight-connect.com/');">
+            <h3>Spotlight</h3>
+          </div>
+          <div class="workcard" style="background-image: url('/assets/images/danisalat.png'); cursor: pointer;" onclick="window.open('http://danisalat.com/');">
+            <h3>Dani Salat</h3>
+          </div>
         </div>
-        <div class="workcard" style="background-image: url('/assets/images/danisalat.png'); cursor: pointer;" onclick="window.open('http://danisalat.com/');">
-          <h3>Dani Salat</h3>
+        <div class="workcards-container">
+          <div class="workcard" style="background-image: url('/assets/images/rent.png'); cursor: pointer;" onclick="window.open('http://rentyourchef.herokuapp.com/');">
+            <h3>Rent your chef</h3>
+          </div>
+          <div class="workcard" style="background-image: url('/assets/images/elrincon.png'); cursor: pointer;" onclick="window.location='https://el-rincon.webflow.io/';">
+            <h3>El rincón</h3>
+          </div>
         </div>
-      </div>
-      <div class="workcards-container">
-        <div class="workcard" style="background-image: url('/assets/images/rent.png'); cursor: pointer;" onclick="window.open('http://rentyourchef.herokuapp.com/');">
-          <h3>Rent your chef</h3>
-        </div>
-        <div class="workcard" style="background-image: url('/assets/images/elrincon.png'); cursor: pointer;" onclick="window.location='https://el-rincon.webflow.io/';">
-          <h3>El rincón</h3>
-        </div>
-      </div>
-    </div>
     </div>
   </div>
 </div>
@@ -145,7 +144,7 @@ title: Hey it's Silvia
       <img src="/assets/images/circle.png" class="contact-circle"/>
     </div>
   </div>
-    <div class="contact-info-container">
+    <div class="contact-info-container section">
       <div class="email-box">
         <h3>If you prefer talking through email</h3>
         <img src="/assets/images/underline.png" class="underline-email"/>

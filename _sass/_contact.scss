@@ -1,9 +1,14 @@
 #contact {
   background: $green;
   position: relative;
-  bottom: 25vw;
-  .contact-header {
+  .contact-header-container {
+      background: $green;
+      position: absolute;
+      width: 100%;
+      top: -25vw;
+    .contact-header {
       padding: 5% 10%;
+      z-index: -1;
       h1 {
         font-family: "PT Serif";
         font-weight: 700;
@@ -27,7 +32,10 @@
         width: 20vw;
       }
   }
+  }
   .contact-info-container {
+    position: relative;
+    z-index: 100;
     width: 100%;
     background: $light-cream;
     border-radius: 17vw 17vw 0 0;
@@ -152,7 +160,7 @@
 
 @media only screen and (max-width: 600px) {
   #contact {
-    bottom: 40vw;
+    top: -5vw;
     .contact-info-container {
       min-height: 0;
       padding-bottom: 1em;
