@@ -6,6 +6,7 @@ layout: default
 page: index
 title: Hey it's Silvia
 ---
+
 {% include navbar.html %}
 
 <div class="banner">
@@ -102,14 +103,14 @@ title: Hey it's Silvia
       <img src="/assets/images/work-circle.png" class="work-circle"/>
     </div>
     <div class="carousel-container">
-      <div class="panel active" style="background-image: url('/assets/images/spotlight.png'); cursor: pointer;" onclick="window.open('http://www.spotlight-connect.com/');">
+      <div class="panel active" style="background-image: url('/assets/images/rent.png'); cursor: pointer;" onclick="window.open('https://rentyourchefonline.herokuapp.com/');">
+        <a class="btn" href="https://rentyourchefonline.herokuapp.com/">Go to project</a>
+      </div>
+      <div class="panel" style="background-image: url('/assets/images/spotlight.png'); cursor: pointer;" onclick="window.open('http://www.spotlight-connect.com/');">
         <a class="btn" href="http://www.spotlight-connect.com/">Go to project</a>
       </div>
       <div class="panel" style="background-image: url('/assets/images/danisalat.png'); cursor: pointer;" onclick="window.open('http://danisalat.com/');">
         <a class="btn" href="http://danisalat.com/">Go to project</a>
-      </div>
-      <div class="panel" style="background-image: url('/assets/images/rent.png'); cursor: pointer;" onclick="window.open('http://rentyourchef.herokuapp.com/');">
-        <a class="btn" href="http://rentyourchef.herokuapp.com/">Go to project</a>
       </div>
       <div class="panel" style="background-image: url('/assets/images/elrincon.png'); cursor: pointer;" onclick="window.open('https://el-rincon.webflow.io/');">
         <a class="btn" href="https://el-rincon.webflow.io/">Go to project</a>
@@ -125,7 +126,7 @@ title: Hey it's Silvia
           </div>
         </div>
         <div class="workcards-container">
-          <div class="workcard" style="background-image: url('/assets/images/rent.png'); cursor: pointer;" onclick="window.open('http://rentyourchef.herokuapp.com/');">
+          <div class="workcard" style="background-image: url('/assets/images/rent.png'); cursor: pointer;" onclick="window.open('https://rentyourchefonline.herokuapp.com/');">
             <h3>Rent your chef</h3>
           </div>
           <div class="workcard" style="background-image: url('/assets/images/elrincon.png'); cursor: pointer;" onclick="window.location='https://el-rincon.webflow.io/';">
@@ -189,4 +190,3 @@ title: Hey it's Silvia
       </div>
     </div>
 </div>
-
