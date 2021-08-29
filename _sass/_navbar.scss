@@ -4,7 +4,7 @@
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 2;
+  z-index: 3;
   .logo {
     text-decoration: none;
     color: $dark-blue;
@@ -24,12 +24,13 @@
   position: fixed;
   top: 3.5vw;
   right: 4vw;
-  .line1, .line2 {
-  width: 35px;
-  height: 0.3em;
-  background-color: $light-brown;
-  margin: 15% 0;
-  transition: 0.5s;
+  .line1,
+  .line2 {
+    width: 35px;
+    height: 0.3em;
+    background-color: $light-brown;
+    margin: 15% 0;
+    transition: 0.5s;
   }
 }
 
@@ -40,15 +41,15 @@
   position: fixed;
   top: 0;
   right: -25rem;
-  transition: right .8s;
+  transition: right 0.8s;
   z-index: 100;
 }
 
 .change {
   right: 0;
   .line1 {
-  -webkit-transform: rotate(-45deg) translate(-1px, 1px);
-  transform: rotate(-45deg) translate(-1px, 1px);
+    -webkit-transform: rotate(-45deg) translate(-1px, 1px);
+    transform: rotate(-45deg) translate(-1px, 1px);
   }
   .line2 {
     -webkit-transform: rotate(45deg) translate(-8px, -9px);
@@ -73,8 +74,8 @@
     }
   }
   .contact-line {
-      transform: translate(6rem, -4em);
-    }
+    transform: translate(6rem, -4em);
+  }
 }
 
 .hidden {
@@ -114,7 +115,6 @@
   }
 }
 
-
 @media only screen and (max-width: 400px) {
   .navbar {
     width: 100vw;
@@ -140,4 +140,3 @@
     }
   }
 }
-
