@@ -52,13 +52,13 @@ title: Hey it's Silvia
           <div>
             <div class="line1-logos">
               <div class="tooltip">
-                <img src="/assets/images/ruby.png"/><span class="tooltiptext">Ruby on Rails</span>
-              </div>
-              <div class="tooltip">
-                <img src="/assets/images/bootstrap.svg"/><span class="tooltiptext">Bootstrap</span>
+                <img src="/assets/images/react.png"/><span class="tooltiptext">React</span>
               </div>
               <div class="tooltip">
                 <img src="/assets/images/html.png"/><span class="tooltiptext">HTML & CSS</span>
+              </div>
+              <div class="tooltip">
+                <img src="/assets/images/js.png"/><span class="tooltiptext">JavaScript</span>
               </div>
             </div>
             <div class="line2-logos">
@@ -66,13 +66,13 @@ title: Hey it's Silvia
                 <img src="/assets/images/sass.png"/><span class="tooltiptext">Sass</span>
               </div>
               <div class="tooltip">
-                <img src="/assets/images/js.png"/><span class="tooltiptext">JavaScript</span>
+                <img src="/assets/images/bootstrap.svg"/><span class="tooltiptext">Bootstrap</span>
+              </div>
+              <div class="tooltip">
+                <img src="/assets/images/ruby.png"/><span class="tooltiptext">Ruby on Rails</span>
               </div>
               <div class="tooltip">
                 <img src="/assets/images/figma.png"/><span class="tooltiptext">Figma</span>
-              </div>
-              <div class="tooltip">
-                <img src="/assets/images/marvel.png"/><span class="tooltiptext">Marvel</span>
               </div>
             </div>
           </div>
@@ -82,9 +82,9 @@ title: Hey it's Silvia
             <div>
                 <ul class="flip4">
                     <li>Creating clean code!</li>
-                    <li>Testing code!</li>
+                    <li>Testing!</li>
+                    <li>React and Redux!</li>
                     <li>REST APIs!</li>
-                    <li>Js Frameworks!</li>
                 </ul>
             </div>
           </h4>
@@ -103,34 +103,34 @@ title: Hey it's Silvia
       <img src="/assets/images/work-circle.png" class="work-circle"/>
     </div>
     <div class="carousel-container">
-      <div class="panel active" style="background-image: url('/assets/images/rent.png'); cursor: pointer;" onclick="window.open('https://rentyourchefonline.herokuapp.com/');">
-        <a class="btn" href="https://rentyourchefonline.herokuapp.com/">Go to project</a>
+      <div class="panel active" style="background-image: url('/assets/images/indora.png'); cursor: pointer;" onclick="window.open('https://quintetindora.netlify.app/');">
+        <a class="btn" href="https://github.com/silsc/quintetindoraweb">Go to repo</a>
       </div>
       <div class="panel" style="background-image: url('/assets/images/w-project.png'); cursor: pointer;" onclick="window.open('https://wprojectphotography.netlify.app/');">
-        <a class="btn" href="http://www.spotlight-connect.com/">Go to project</a>
+        <a class="btn" href="https://github.com/silsc/wproject">Go to repo</a>
+      </div>
+      <div class="panel" style="background-image: url('/assets/images/weathertoday.png'); cursor: pointer;" onclick="window.open('https://weathertoday-heyitssilvia.netlify.app/');">
+        <a class="btn" href="https://github.com/silsc/react_weather">Go to repo</a>
       </div>
       <div class="panel" style="background-image: url('/assets/images/danisalat.png'); cursor: pointer;" onclick="window.open('http://danisalat.com/');">
-        <a class="btn" href="http://danisalat.com/">Go to project</a>
-      </div>
-      <div class="panel" style="background-image: url('/assets/images/elrincon.png'); cursor: pointer;" onclick="window.open('https://el-rincon.webflow.io/');">
-        <a class="btn" href="https://el-rincon.webflow.io/">Go to project</a>
+        <a class="btn" href="https://github.com/silsc/danisalat/">Go to repo</a>
       </div>
     </div>
     <div class="workshow">
         <div class="workcards-container">
+          <div class="workcard" style="background-image: url('/assets/images/indora.png'); cursor: pointer;" onclick="window.location='https://quintetindora.netlify.app/';">
+            <h3>Quintet Indora</h3>
+          </div>
           <div class="workcard" style="background-image: url('/assets/images/w-project.png'); cursor: pointer;" onclick="window.open('https://wprojectphotography.netlify.app/');">
             <h3>W-project</h3>
           </div>
-          <div class="workcard" style="background-image: url('/assets/images/danisalat.png'); cursor: pointer;" onclick="window.open('http://danisalat.com/');">
-            <h3>Dani Salat</h3>
-          </div>
         </div>
         <div class="workcards-container">
-          <div class="workcard" style="background-image: url('/assets/images/rent.png'); cursor: pointer;" onclick="window.open('https://rentyourchefonline.herokuapp.com/');">
-            <h3>Rent your chef</h3>
+          <div class="workcard" style="background-image: url('/assets/images/weathertoday.png'); cursor: pointer;" onclick="window.open('https://weathertoday-heyitssilvia.netlify.app/');">
+            <h3>Weather Today</h3>
           </div>
-          <div class="workcard" style="background-image: url('/assets/images/elrincon.png'); cursor: pointer;" onclick="window.location='https://el-rincon.webflow.io/';">
-            <h3>El rincón</h3>
+          <div class="workcard" style="background-image: url('/assets/images/danisalat.png'); cursor: pointer;" onclick="window.open('http://danisalat.com/');">
+            <h3>Dani Salat</h3>
           </div>
         </div>
     </div>
