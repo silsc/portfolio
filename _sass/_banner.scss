@@ -105,14 +105,13 @@
 }
 
 @media only screen and (max-width: 600px) {
-  
   .banner {
     min-height: 70vw;
     h1 {
     color: $black;
-    font-size: 8vw;
+    font-size: 9vw;
       span {
-        font-size: 11vw;
+        font-size: 12vw;
       }
     }
   }
@@ -145,7 +144,7 @@
   }
   .banner-lineround {
     position: absolute;
-    right: 25vw;
+    right: 30vw;
     top: 23vw;
     font-size: 2.5vw;
     h3 {
