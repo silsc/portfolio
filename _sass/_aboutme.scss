@@ -6,11 +6,11 @@
     .aboutme-card {
       position: relative;
       border-radius: 30vw 30vw 0 0;
-      background: $light-blue;
+      background: $main-blue;
       .underline-aboutme {
         position: absolute;
         top: 13vw;
-        left: 45vw;
+        right: 30vw;
         width: 20vw;
         height: 0.5vw;
         z-index: 100;
@@ -20,13 +20,14 @@
         top: 3%;
         left: 40%;
         font-size: 5vw;
+        font-family: "Montserrat", Arial, sans-serif;
+        font-weight: 700;
         z-index: 2;
-        text-shadow: -5px 0px 0px #FFFFFF;
       }
       .avatar {
         position: absolute;
         top: -8%;
-        left: 30%;
+        left: 15%;
         transform: rotate(-14.86deg);
       }
       .aboutme-box {
@@ -36,8 +37,8 @@
         .aboutme-text {
           p, .highlight {
             font-size: 1.3vw;
-            font-family: "PT Sans";
-            color: $light-brown;
+            font-family: "Montserrat";
+            color: $black;
             line-height: 2vw;
           }
 
@@ -45,8 +46,8 @@
             font-weight: 700;
             background-position: left;
             background-size: 0% 100%;
-            background: $light-blue;
-            background: linear-gradient(to left, $light-blue 50%, yellow 50%) right;
+            background: $main-blue;
+            background: linear-gradient(to left, $main-blue 50%, yellow 50%) right;
             background-size: 205%;
             transition: .5s ease-out;
           }
@@ -57,12 +58,23 @@
 
           .sign {
             position: relative;
-            margin: 10% 10% 0 0;
-            font-family: "Mr Dafoe";
-            font-size: 4vw;
-            color: $dark-blue;
-            text-shadow: -2px 0px 0px #B9C9C7;
-            text-align: right;
+            p {
+              margin: 10% 10% 0 0;
+              font-family: "IBM Plex Mono";
+              font-size: 2vw;
+              color: $black;
+              text-align: right;
+            }
+            img {
+              position: absolute;
+              height: 100px;
+              width: auto;
+              top: 0;
+              bottom: 0;
+              right: 0;
+              margin: auto 0;
+              transform: rotate(20deg);
+            }
           }
         }
       }
@@ -74,9 +86,8 @@
         text-align: right;
       }
       h2 {
-        font-family: "PT Serif";
-        color: $light-brown;
-        text-shadow: -2px 0px 0px #B9C9C7;
+        font-family: "Montserrat";
+        color: $black;
         font-size: 2.5vw;
       }
       .line1-logos {
@@ -91,16 +102,17 @@
           display: inline-block;
           &:hover .tooltiptext{
             visibility: visible;
-            opacity: 1;;
+            opacity: 1;
           }
         }
         .tooltiptext {
-            visibility: hidden;
+            transition: opacity 0.2s ease-in;
+            opacity: 0;
             margin-top: 1.5em;
             font-size: 1vw;
             width: 8vw;
             background-color: white;
-            color: $dark-blue;
+            color: $main-blue;
             text-align: center;
             border-radius: 6px;
             padding: 0.5em 0;
@@ -109,6 +121,7 @@
             top: 80%;
             left: -30%;
             font-weight: 700;
+            font-family: 'IBM Plex Mono';
             &::after {
               content: "";
               display: inline-block;
@@ -134,20 +147,22 @@
           margin-right: 7.7vw;
         }
         .tooltip {
+          transition: opacity 0.2s ease-in;
           position: relative;
           display: inline-block;
           &:hover .tooltiptext{
             visibility: visible;
-            opacity: 1;;
+            opacity: 1;
           }
         }
         .tooltiptext {
-            visibility: hidden;
+            transition: opacity 0.2s ease-in;
+            opacity: 0;            
             margin-top: 1.5em;
             font-size: 1vw;
             width: 8vw;
             background-color: white;
-            color: $dark-blue;
+            color: $main-blue;
             text-align: center;
             border-radius: 6px;
             padding: 0.5em 0;
@@ -177,9 +192,9 @@
 
 .wordCarousel {
     font-size: 1.5vw;
-    font-family: "PT Sans";
+    font-family: "Montserrat";
     font-weight: 400;
-    color: $light-brown;
+    color: $black;
     display: flex;
     width: 45vw;
     margin: 10% 0 0 10%;
@@ -190,8 +205,8 @@
       padding-top: 10px;
       margin-top: -10px;
         li {
-            font-family: "PT Serif";
-            color: $light-brown;
+            font-family: "IBM Plex Mono";
+            color: $black;
             font-style: italic;
             font-weight: 700;
             padding: 0 10px;
@@ -244,29 +259,35 @@
     .aboutme-container {
       .aboutme-card {
         h1 {
-          top: -1%;
-          left: 40%;
+          top: 2%;
+          left: 30%;
           font-size: 8vw;
         }
         .underline-aboutme {
           width: 35vw;
           height: 1vw;
+          top: 22vw;
         }
         .avatar {
           top: -3%;
-          left: 20%;
+          left: 15%;
           width: 23%;
         }
         .aboutme-box {
           display: block;
-          padding: 20% 12% 25% 12%;
+          padding: 30% 12% 25% 12%;
           .aboutme-text {
             p {
               font-size: 3vw;
               line-height: 5vw;
             }
             .sign {
-              font-size: 10vw;
+              p {
+              font-size: 5vw;
+              }
+              img {
+                height: 80px;
+              }
             }
           }
           .knowledge {
@@ -288,7 +309,7 @@
               }
             }
             .wordCarousel {
-              font-size: 3vw;
+              font-size: 2.5vw;
               width: 110%;
               margin: 10% 0 0 0;
             }

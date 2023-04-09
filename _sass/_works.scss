@@ -8,18 +8,19 @@
     width: 100%;
     padding-top: 6%;
     h1 {
-    font-family: "PT Serif";
-    color: $dark-brown;
-    font-size: 5.5vw;
+    font-family: "Montserrat";
+    color: $black;
+    font-size: 4.5vw;
     margin: 0 0 0 15%;
+    font-weight: 700;
     }
     .work-header-line2 {
       padding-left: 10%;
     }
     .work-circle {
       position: absolute;
-      top: 11vw;
-      width: 20vw;
+      top: 8vw;
+      width: 21vw;
       right: 4.5vw;
     }
   }
@@ -50,7 +51,7 @@
       transition: all 0.7s ease-in;
     }
     .panel a {
-      font-family: "PT Sans";
+      font-family: "Montserrat";
       font-size: 1.5em;
       position: absolute;
       bottom: 20px;
@@ -60,7 +61,10 @@
       color: white;
       padding: 2% 3%;
       border-radius: 2em;
-      background-color: $medium-blue;
+      background-color: $main-blue;
+        &:hover {
+          transform: scale(1.2);
+        }
     }
 
     .panel.active {
@@ -93,7 +97,7 @@
               position: relative;
               width: 35vw;
               height: 15em;
-              border: 1px solid $light-blue;
+              border: 1px solid $main-blue;
               border-radius: 10px;
               margin: 3%;
               align-self: center;
@@ -102,7 +106,7 @@
               h3 {
                 position: absolute;
                 bottom: -9%;
-                background: $light-blue;
+                background: $main-blue;
                 width: 100%;
                 padding: 10% 0;
                 border-radius: 0 0 10px 10px;

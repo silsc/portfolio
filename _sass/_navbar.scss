@@ -7,12 +7,16 @@
   z-index: 3;
   .logo {
     text-decoration: none;
-    color: $dark-blue;
-    background: white;
+    color: white;
+    background: $main-blue;
     padding: 0 1.7em;
     position: fixed;
     top: 3vw;
     left: 4vw;
+    h2 {
+      font-family: "IBM Plex Mono", Georgia, serif;
+      font-weight: 400;
+    }
   }
 }
 
@@ -28,7 +32,7 @@
   .line2 {
     width: 35px;
     height: 0.3em;
-    background-color: $light-brown;
+    background-color: $black;
     margin: 15% 0;
     transition: 0.5s;
   }
@@ -37,7 +41,7 @@
 .navbar {
   width: 25rem;
   height: 100vh;
-  background-color: $medium-blue;
+  background-color: $main-blue;
   position: fixed;
   top: 0;
   right: -25rem;
@@ -66,7 +70,8 @@
     padding: 0;
     .nav-link {
       text-decoration: none;
-      color: $light-brown;
+      color: $black;
+      font-family: "IBM Plex Mono";
       font-size: 2em;
     }
     .sns {
@@ -90,7 +95,7 @@
   .top-header {
     display: flex;
     height: 20vw;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
   }
   .hamburger-menu {
     top: 5.5vw;

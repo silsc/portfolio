@@ -4,56 +4,58 @@
   min-height: 40vw;
   margin-top: 5em;
   h1 {
-    color: $dark-brown;
-    font-size: 8vw;
+    color: $black;
+    font-size: 8.5vw;
     span {
-      font-style: italic;
-      font-size: 14vw;
+      font-size: 12vw;
     }
   }
 }
 
 .banner-line1 {
   position: absolute;
-  left: 27%;
+  left: 21%;
   top: 0;
 }
 .banner-line2 {
   position: absolute;
-  left: 30%;
-  top: 3vw;
+  left: 24%;
+  top: 6.5vw;
   z-index: 1;
+  h1, span {
+    letter-spacing: -0.13em;
+  }
 }
   .banner-subtitle {
     display: flex;
     position: absolute;
     left: 24%;
-    top: 19vw;
+    top: 23vw;
     h2 {
-      color: $dark-blue;
+      color: $main-blue;
       font-size: 6vw;
-      font-family: "PT Serif";
+      font-family: "Montserrat";
       font-weight: 400;
     }
     p {
-      color: $light-brown;
+      color: $black;
       font-size: 1.5vw;
-      padding: 17% 10%;
+      padding: 14% 6%;
       line-height: 1.6em;
-      width: 31vw;
+      width: 32vw;
     }
   }
 
 .banner-lineround {
   position: absolute;
   right: 24%;
-  top: 14vw;
-  font-family: "Roboto";
+  top: 16vw;
+  font-family: "Montserrat";
   font-size: 1em;
   font-weight: 700;
   animation: animate 7.5s linear infinite;
   h3 {
-    color: $light-brown;
+    color: $black;
     span {
       top: -100px;
       position: absolute;
@@ -62,7 +64,7 @@
     }
   }
   h4 {
-    color: $medium-blue;
+    color: $main-blue;
     span {
       top: -100px;
       position: absolute;
@@ -103,14 +105,14 @@
 }
 
 @media only screen and (max-width: 600px) {
+  
   .banner {
     min-height: 70vw;
     h1 {
-    color: $dark-brown;
-    font-size: 15vw;
+    color: $black;
+    font-size: 8vw;
       span {
-        font-style: italic;
-        font-size: 20vw;
+        font-size: 11vw;
       }
     }
   }
@@ -131,8 +133,8 @@
       font-size: 20vw;
     }
     p {
-      color: $light-brown;
-      font-size: 3.9vw;
+      color: $black;
+      font-size: 3.2vw;
       padding: 30% 7%;
       line-height: 1.6em;
       width: 60vw;
@@ -145,17 +147,17 @@
     position: absolute;
     right: 25vw;
     top: 23vw;
-    font-size: 0.7em;
+    font-size: 2.5vw;
     h3 {
       span {
-        top: -60px;
-        transform-origin: 0 70px;
+        top: -19vw;
+        transform-origin: 0 21vw;
       }
     }
     h4 {
       span {
-        top: -60px;
-        transform-origin: 0 70px;
+        top: -19vw;
+        transform-origin: 0 21vw;
       }
     }
   }
