@@ -18,7 +18,7 @@ title: Hey it's Silvia
     </div>
     <div class="banner-subtitle">
       <h2>(</h2>
-        <p>I’m a UX / Front end web developer based <br>in Tokyo, Japan 🇯🇵</p>
+        <p>I’m a UX / Front end web developer <br> based in Tokyo, Japan 🇯🇵</p>
       <h2>)</h2>
     </div>
     <div class="banner-lineround">
