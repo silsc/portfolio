@@ -105,19 +105,19 @@ title: Hey it's Silvia
     </div>
     <div class="carousel-container">
       <div class="panel active" style="background-image: url('/assets/images/indora.png'); cursor: pointer;" onclick="window.open('https://quintetindora.netlify.app/');">
-        <a class="btn" href="https://github.com/silsc/quintetindoraweb">Go to repo</a>
+        <a class="btn" href="https://github.com/silsc/quintetindoraweb" target="_blank">Go to repo</a>
       </div>
       <div class="panel" style="background-image: url('/assets/images/w-project.png'); cursor: pointer;" onclick="window.open('https://wprojectphotography.netlify.app/');">
-        <a class="btn" href="https://github.com/silsc/wproject">Go to repo</a>
+        <a class="btn" href="https://github.com/silsc/wproject" target="_blank">Go to repo</a>
       </div>
       <div class="panel" style="background-image: url('/assets/images/weathertoday.png'); cursor: pointer;" onclick="window.open('https://weathertoday-heyitssilvia.netlify.app/');">
-        <a class="btn" href="https://github.com/silsc/react_weather">Go to repo</a>
+        <a class="btn" href="https://github.com/silsc/react_weather" target="_blank">Go to repo</a>
       </div>
       <div class="panel" style="background-image: url('/assets/images/danisalat.png'); cursor: pointer;" onclick="window.open('http://danisalat.com/');">
-        <a class="btn" href="https://github.com/silsc/danisalat/">Go to repo</a>
+        <a class="btn" href="https://github.com/silsc/danisalat/" target="_blank">Go to repo</a>
       </div>
       <div class="panel" style="background-image: url('/assets/images/tictac.png'); cursor: pointer;" onclick="window.open('https://heyitssilvia-tic-tac.netlify.app/');">
-        <a class="btn" href="https://github.com/silsc/react_tic-tac">Go to repo</a>
+        <a class="btn" href="https://github.com/silsc/react_tic-tac" target="_blank">Go to repo</a>
       </div>
     </div>
     <div class="workshow">
